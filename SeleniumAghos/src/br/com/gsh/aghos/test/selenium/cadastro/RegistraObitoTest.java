@@ -23,7 +23,7 @@ public class RegistraObitoTest extends SeleniumTest {
 
 	private void login() {
 		driver.findElement(By.id("username")).clear();
-		driver.findElement(By.id("username")).sendKeys("GSH6");
+		driver.findElement(By.id("username")).sendKeys("GSH8");
 		driver.findElement(By.name("j_password")).clear();
 		driver.findElement(By.name("j_password")).sendKeys("GSH");
 		driver.findElement(By.xpath("//input[@value='LOGAR']")).click();
