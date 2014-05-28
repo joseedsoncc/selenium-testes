@@ -45,7 +45,7 @@ public class ConsultaPesquisaTest extends SeleniumTest {
 	}
 	
 	public void testAdicionaUpsIndicacaoConsulta() throws Exception {
-	    driver.findElement(By.linkText("5")).click();
+	    driver.findElement(By.linkText("2")).click();
 	    driver.findElement(By.linkText("Ações")).click();
 	    driver.findElement(By.linkText("UPS Indicação Consulta")).click();
 	    driver.findElement(By.cssSelector("span.icon-white.icon-search")).click();
